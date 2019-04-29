@@ -1,0 +1,27 @@
+{
+    "name": "junzi528/composer_demo",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "junzi528",
+            "email": "junzi528@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.6"
+    },
+    "autoload": {
+		"psr-4": {
+		  "User\\Client\\": "src/User/Client"
+		}
+  },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
